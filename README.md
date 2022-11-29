@@ -8,30 +8,30 @@ I calculated the overall execution time from each part 1 and part 2 solutions (g
 Day | Part 1 Time | Part 2 Time (Accumulated) | Overall Execution Time (s) | Global Rank
 --- | ----------- | ------------------------- | -------------------------- | -----------
 [Day 1](https://github.com/Buckminsterfullerene02/AoC-2021/blob/master/Python/Day1.py) | 00:13:37 | 00:27:13 | 0.002 | 5960
-[Day 2](https://github.com/Buckminsterfullerene02/AoC-2021/blob/main/Python/Day2.py) | 00:16:35 | 00:19:02 | 0.002 | 7843
-[Day 3](https://github.com/Buckminsterfullerene02/AoC-2021/blob/main/Python/Day3.py) | 00:28:22 | 00:42:05 | 0.001 | 4294
-[Day 4](https://github.com/Buckminsterfullerene02/AoC-2021/blob/main/Python/Day4.py) | 01:05:35 | 01:19:33 | 0.050 | 5906
-[Day 5](https://github.com/Buckminsterfullerene02/AoC-2021/blob/main/Python/Day5.py) | 00:25:35 | 00:38:44 | 0.130 | 2995
-[Day 6](https://github.com/Buckminsterfullerene02/AoC-2021/blob/main/Python/Day6.py) | 00:15:52 | 00:24:23 | 0.503 | 2685
-[Day 7](https://github.com/Buckminsterfullerene02/AoC-2021/blob/main/Python/Day7.py) | 00:10:59 | 00:19:08 | 0.400 | 4856
-[Day 8](https://github.com/Buckminsterfullerene02/AoC-2021/blob/main/Python/Day8.py) | 00:53:40[^1] | 01:35:09 | 0.005 | 4498
-[Day 9](https://github.com/Buckminsterfullerene02/AoC-2021/blob/main/Python/Day9.py) | 00:37:06 | 01:37:18 | 0.005 | 7399
-[Day 10](https://github.com/Buckminsterfullerene02/AoC-2021/blob/main/Python/Day10.py) | 00:26:18 | 00:58:55 | 0.003 | 7274
-[Day 11](https://github.com/Buckminsterfullerene02/AoC-2021/blob/main/Python/Day11.py) | 02:55:92[^2] | 03:09:17 | 0.040 | 10232
-[Day 12](https://github.com/Buckminsterfullerene02/AoC-2021/blob/main/Python/Day12.py) | 08:14:18[^3] | 08:56:02 | 0.450 | 17522
-[Day 13](https://github.com/Buckminsterfullerene02/AoC-2021/blob/main/Python/Day13.py) | 00:39:36 | 00:41:50[^4] | 0.004 | 3420
-[Day 14](https://github.com/Buckminsterfullerene02/AoC-2021/blob/main/Python/Day14.py) | 07:22:06[^5] | >24h | 0.011 | 36937
-[Day 15](https://github.com/Buckminsterfullerene02/AoC-2021/blob/main/Python/Day15.py) | 03:43:19 | 03:51:19 | 5.765 | 6729
-[Day 16](https://github.com/Buckminsterfullerene02/AoC-2021/blob/main/Python/Day16.py) | 10:01:36 | 10:07:11 | 0.004 | 10935
-[Day 17](https://github.com/Buckminsterfullerene02/AoC-2021/blob/main/Python/Day17.py) | 09:58:11 | 11:39:48 | 0.077 | 15199
-[Day 18](https://github.com/Buckminsterfullerene02/AoC-2021/blob/main/Python/Day18.py) | >24h[^6] | >24h | 0.832 | 16901
-[Day 19](https://github.com/Buckminsterfullerene02/AoC-2021/blob/main/Python/Day19.py) | >24h | >24h | 7.504 | 12519
-[Day 20](https://github.com/Buckminsterfullerene02/AoC-2021/blob/main/Python/Day20.py) | 04:24:44[^7] | 04:25:51 | 4.000 | 5884
-[Day 21](https://github.com/Buckminsterfullerene02/AoC-2021/blob/main/Python/Day21.py) | 09:08:19 | >24h | 0.434 | 14314
-[Day 22](https://github.com/Buckminsterfullerene02/AoC-2021/blob/main/Python/Day22.py) | 05:29:29 | 06:59:41 | 14.98 | 3755 
-[Day 23](https://github.com/Buckminsterfullerene02/AoC-2021/blob/main/Python/Day23.py) | 05:56:12[^8] | 07:35:40 | 6.388 | 2754
-[Day 24](https://github.com/Buckminsterfullerene02/AoC-2021/blob/main/Python/Day24.py) | 13:23:02 | 13:25:57 | 0.001 | 4263
-[Day 25](https://github.com/Buckminsterfullerene02/AoC-2021/blob/main/Python/Day25.py) | 00:59:08 | 00:59:29 | 4.584 | 1836
+[Day 2](https://github.com/Buckminsterfullerene02/AoC-2021/blob/master/Python/Day2.py) | 00:16:35 | 00:19:02 | 0.002 | 7843
+[Day 3](https://github.com/Buckminsterfullerene02/AoC-2021/blob/master/Python/Day3.py) | 00:28:22 | 00:42:05 | 0.001 | 4294
+[Day 4](https://github.com/Buckminsterfullerene02/AoC-2021/blob/master/Python/Day4.py) | 01:05:35 | 01:19:33 | 0.050 | 5906
+[Day 5](https://github.com/Buckminsterfullerene02/AoC-2021/blob/master/Python/Day5.py) | 00:25:35 | 00:38:44 | 0.130 | 2995
+[Day 6](https://github.com/Buckminsterfullerene02/AoC-2021/blob/master/Python/Day6.py) | 00:15:52 | 00:24:23 | 0.503 | 2685
+[Day 7](https://github.com/Buckminsterfullerene02/AoC-2021/blob/master/Python/Day7.py) | 00:10:59 | 00:19:08 | 0.400 | 4856
+[Day 8](https://github.com/Buckminsterfullerene02/AoC-2021/blob/master/Python/Day8.py) | 00:53:40[^1] | 01:35:09 | 0.005 | 4498
+[Day 9](https://github.com/Buckminsterfullerene02/AoC-2021/blob/master/Python/Day9.py) | 00:37:06 | 01:37:18 | 0.005 | 7399
+[Day 10](https://github.com/Buckminsterfullerene02/AoC-2021/blob/master/Python/Day10.py) | 00:26:18 | 00:58:55 | 0.003 | 7274
+[Day 11](https://github.com/Buckminsterfullerene02/AoC-2021/blob/master/Python/Day11.py) | 02:55:92[^2] | 03:09:17 | 0.040 | 10232
+[Day 12](https://github.com/Buckminsterfullerene02/AoC-2021/blob/master/Python/Day12.py) | 08:14:18[^3] | 08:56:02 | 0.450 | 17522
+[Day 13](https://github.com/Buckminsterfullerene02/AoC-2021/blob/master/Python/Day13.py) | 00:39:36 | 00:41:50[^4] | 0.004 | 3420
+[Day 14](https://github.com/Buckminsterfullerene02/AoC-2021/blob/master/Python/Day14.py) | 07:22:06[^5] | >24h | 0.011 | 36937
+[Day 15](https://github.com/Buckminsterfullerene02/AoC-2021/blob/master/Python/Day15.py) | 03:43:19 | 03:51:19 | 5.765 | 6729
+[Day 16](https://github.com/Buckminsterfullerene02/AoC-2021/blob/master/Python/Day16.py) | 10:01:36 | 10:07:11 | 0.004 | 10935
+[Day 17](https://github.com/Buckminsterfullerene02/AoC-2021/blob/master/Python/Day17.py) | 09:58:11 | 11:39:48 | 0.077 | 15199
+[Day 18](https://github.com/Buckminsterfullerene02/AoC-2021/blob/master/Python/Day18.py) | >24h[^6] | >24h | 0.832 | 16901
+[Day 19](https://github.com/Buckminsterfullerene02/AoC-2021/blob/master/Python/Day19.py) | >24h | >24h | 7.504 | 12519
+[Day 20](https://github.com/Buckminsterfullerene02/AoC-2021/blob/master/Python/Day20.py) | 04:24:44[^7] | 04:25:51 | 4.000 | 5884
+[Day 21](https://github.com/Buckminsterfullerene02/AoC-2021/blob/master/Python/Day21.py) | 09:08:19 | >24h | 0.434 | 14314
+[Day 22](https://github.com/Buckminsterfullerene02/AoC-2021/blob/master/Python/Day22.py) | 05:29:29 | 06:59:41 | 14.98 | 3755 
+[Day 23](https://github.com/Buckminsterfullerene02/AoC-2021/blob/master/Python/Day23.py) | 05:56:12[^8] | 07:35:40 | 6.388 | 2754
+[Day 24](https://github.com/Buckminsterfullerene02/AoC-2021/blob/master/Python/Day24.py) | 13:23:02 | 13:25:57 | 0.001 | 4263
+[Day 25](https://github.com/Buckminsterfullerene02/AoC-2021/blob/master/Python/Day25.py) | 00:59:08 | 00:59:29 | 4.584 | 1836
 
 [^1]: I woke up 35 minutes late.
 [^2]: I woke up 2 hours 10 minutes late.
