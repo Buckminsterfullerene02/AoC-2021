@@ -46,20 +46,20 @@ Day | Part 1 Time | Part 2 Time (Accumulated) | Overall Execution Time (s) | Glo
 My goal with these blueprint solutions is that I want to try and match them to the Python solutions I write first. If I find a better way of doing things, I update it in the Python solution first, and then update the blueprint solution. This is partially because I find it difficult to write BP if I don't have code to follow along with. Building upon this, it makes debugging the BP solution much easier since I can debug the Python solution as a reference. The only times this does not hold directly true is when I use a datastructure or library that does not exist in BP and I have to recreate with something my own, for example a defaultdict or Counter from collections.
 ### Reading in the input
 BP cannot do file I/O on its own so I had to write a couple of small C++ functions to read in the input.
-![Read Input C++](https://github.com/Buckminsterfullerene02/AoC-2021/blob/71b4748523fedc471236bfe92ee61b2a52047428/BP%20Solutions/ReadInput-CPP.png)<br>
+![Read Input C++](https://github.com/Buckminsterfullerene02/AoC-2021/blob/master/BP%20Solutions/BaseBP.png)<br>
 I then have a Blueprint Library with a function helper functions, including Read Input that calls upon the reflected C++ functions. I also have a pre-path set to the input text files directory so that in each new Day BP I only need to change the file name.
-![Read Input BaseLib](https://github.com/Buckminsterfullerene02/AoC-2021/blob/71b4748523fedc471236bfe92ee61b2a52047428/BP%20Solutions/ReadInput-BaseLib.png)
+![Read Input BaseLib](https://github.com/Buckminsterfullerene02/AoC-2021/blob/master/BP%20Solutions/ReadInput-BaseLib.png)
 I then have a Base BP Actor that has a couple of variables and nodes already set up. I then can just duplicate the Base BP Actor and build my solutions from there.
-![Base BP Actor](https://github.com/Buckminsterfullerene02/AoC-2021/blob/42041b80a35c83fa3429c0b7baf8941574c8d97f/BP%20Solutions/BaseBP.png)
+![Base BP Actor](https://github.com/Buckminsterfullerene02/AoC-2021/blob/master/BP%20Solutions/BaseBP.png)
 ### Day 1
-![Day 1](https://github.com/Buckminsterfullerene02/AoC-2021/blob/b031097fba6b9ebfc6a603df9f25ff59810732cd/BP%20Solutions/Day1.png)
+![Day 1](https://github.com/Buckminsterfullerene02/AoC-2021/blob/master/BP%20Solutions/Day1.png)
 ### Day 2
-![Day 2](https://github.com/Buckminsterfullerene02/AoC-2021/blob/b031097fba6b9ebfc6a603df9f25ff59810732cd/BP%20Solutions/Day2.png)
+![Day 2](https://github.com/Buckminsterfullerene02/AoC-2021/blob/master/BP%20Solutions/Day2.png)
 ### Day 3
 There were a few different functions for various processes so I took screenshots of the most important ones. The first screenshot is the main function for parts 1 and 2. I wrote the BP code based off my Python solution.
-![Day 3 Main](https://github.com/Buckminsterfullerene02/AoC-2021/blob/b031097fba6b9ebfc6a603df9f25ff59810732cd/BP%20Solutions/Day3-Main.png)
+![Day 3 Main](https://github.com/Buckminsterfullerene02/AoC-2021/blob/master/BP%20Solutions/Day3-Main.png)
 This function below counts the number of 1s and 0s in each column and stores them into a struct.
-![Day 3 Create Counter](https://github.com/Buckminsterfullerene02/AoC-2021/blob/b031097fba6b9ebfc6a603df9f25ff59810732cd/BP%20Solutions/Day3-CreateCounter.png)
+![Day 3 Create Counter](https://github.com/Buckminsterfullerene02/AoC-2021/blob/master/BP%20Solutions/Day3-CreateCounter.png)
 This converts the binary string to a decimal number, since UE does not have a built in function for this.
 ![Day 3 Binary To Decimal](https://github.com/Buckminsterfullerene02/AoC-2021/blob/b031097fba6b9ebfc6a603df9f25ff59810732cd/BP%20Solutions/Day3-BinToDec.png)
 The below function is effectively the main function for part 2, but since it gets called twice for the oxygen and C02 scrubbers I had to make it a separate function.
